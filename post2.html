@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo.png">
+    <title>SoulScribbles | Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<script src="https://kit.fontawesome.com/b64c2e8263.js" crossorigin="anonymous"></script>
+
+<body>
+    <!-- Header Section -->
+    <header class="d-flex justify-content-between align-items-center p-3 bg-light shadow-sm">
+        <div class="logo">
+            <img src="./images/logo.png" alt="Logo" class="img-fluid"
+                style="height: 40px;"><strong>SoulScribbles</strong>
+        </div>
+        <nav>
+            <ul class="nav">
+                <li class="nav-item"><a href="index.html" class="nav-link text-dark">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-dark">Portfolio</a></li>
+                <li class="nav-item"><a href="index.html" class="nav-link text-dark">Category</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-dark">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="search-container d-flex">
+            <input type="text" class="form-control" placeholder="Search">
+            <button class="btn btn-primary ms-2">Search</button>
+        </div>
+    </header>
+
+    <!-- Blog Section -->
+    <section class="blog p-4">
+        <!-- Blog Header -->
+        <div class="blog-header d-flex mb-4">
+            <img src="./images/featured-2.jpg" alt="Featured Image" class="img-fluid"
+                style="width: 300px; margin-right: 20px;">
+            <div class="blog-title">
+                <h1 class="fs-3">My HomeTown</h1>
+                <p style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore earum
+                    doloremque reiciendis quos
+                    tenetur aperiam hic <br> animi itaque voluptatem repudiandae molestias
+                    magni rerum corporis, culpa accusantium in, odit, nesciunt dolores.Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Labore earum doloremque reiciendis quos
+                    tenetur aperiam hic animi itaque voluptatem repudiandae molestias
+                    magni rerum corporis</p>
+            </div>
+        </div>
+        <p style="margin-left: 45px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis culpa eveniet
+            deleniti maiores
+            reprehenderit, libero cumque voluptate tempora quisquam incidunt deserunt esse minus dolore corporis
+            consectetur voluptatibus ea facere earum.
+            Nemo quisquam ab dolore, distinctio dolor facilis, illo laborum maiores temporibus aliquid in modi
+            debitis fugiat ad excepturi quibusdam soluta reiciendis et doloremque. Cum tempora alias, magni rerum
+            atque possimus.
+            Odit mollitia eaque fuga, dolores corrupti modi eius pariatur ducimus a. Atque animi reiciendis itaque
+            nostrum. Quasi accusamus ab, doloremque at blanditiis qui fuga autem, aliquid architecto ea aspernatur?
+            Animi!
+            Harum optio mollitia beatae asperiores eveniet suscipit unde saepe quos iure? Doloribus quod sit facere
+            minus, expedita provident, eveniet dicta mollitia repudiandae modi eum accusamus quibusdam beatae
+            nostrum, consectetur numquam.
+            Quod nam maxime, saepe nemo vitae tempore fugiat voluptatibus ab, provident facilis repellendus
+            cupiditate voluptates similique corporis dolorum odio obcaecati nisi ducimus, totam iure suscipit
+            commodi. Quidem quos reiciendis reprehenderit.</p>
+        <p style="margin-left: 45px;">
+            <span class="quote"><i class="fa-solid fa-quote-left"></i>Harum optio mollitia beatae asperiores eveniet
+                suscipit undesaepe quos iure? Doloribus quod sit facere minus, expedita provident, eveniet dicta
+                mollitia repudiandae modi eum accusamus quibusdam beatae
+                nostrum, consectetur numquam.<i class="fa-solid fa-quote-right"></i></span>
+            Quod nam maxime, saepe nemo vitae tempore fugiat voluptatibus ab, provident facilis repellendus
+            cupiditate voluptates similique corporis dolorum odio obcaecati nisi ducimus, totam iure suscipit
+            commodi. Quidem quos reiciendis reprehenderit. <br>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reiciendis culpa eveniet
+            deleniti maiores reprehenderit, libero cumque voluptate tempora quisquam incidunt deserunt esse minus dolore
+            corporis
+            consectetur voluptatibus ea facere earum. Nemo quisquam ab dolore, distinctio dolor facilis, illo laborum
+            maiores temporibus aliquid in modi
+            debitis fugiat ad excepturi quibusdam soluta reiciendis et doloremque. Cum tempora alias, magni rerum
+            atque possimus. Odit mollitia eaque fuga, dolores corrupti modi eius pariatur ducimus a. Atque animi
+            reiciendis itaque
+            nostrum. Quasi accusamus ab, doloremque at blanditiis qui fuga autem, aliquid architecto ea aspernatur?
+            Animi!
+        </p>
+        <hr style="margin-top: 20px;">
+
+        <div class="container comment-container mt-5">
+            <h2>Comments</h2>
+            <div id="comment-section" class="comment-section">
+                <!-- Comments will be displayed here -->
+            </div>
+            <div class="mt-4">
+                <input id="username-input" class="form-control mb-2" type="text" placeholder="Your Name" required>
+                <textarea id="comment-input" class="form-control mb-2" rows="3" placeholder="Add a comment..."
+                    required></textarea>
+                <input type="hidden" id="post-id" value="POST2">
+                <button id="submit-comment" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </section>
+    <footer class=" pt-4" style="border-top: 1px solid #c0c0c0;">
+        <div class="container">
+            <div class="row">
+                <!-- About Section -->
+                <div class="col-md-4">
+                    <h5 class="text-dark">About Us</h5>
+                    <p class="small">
+                        Welcome to SoulScribbles, where we share our thoughts, experiences, and tips on life, travel,
+                        and much more. Join us on our journey!
+                    </p>
+                </div>
+
+                <!-- Links Section -->
+                <div class="col-md-4">
+                    <h5 class="text-dark">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#" class="">About</a></li>
+                        <li><a href="#" class="">Portfolio</a></li>
+                        <li><a href="#" class="">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Social Media Section -->
+                <div class="col-md-4">
+                    <h5 class="text-dark">Follow Us</h5>
+                    <ul class="list-unstyled d-flex">
+                        <li class="me-3">
+                            <a href="https://www.facebook.com" class="text-dark">
+                                <i class="fab fa-facebook fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class="me-3">
+                            <a href="https://www.twitter.com" class="text-dark">
+                                <i class="fab fa-twitter fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class="me-3">
+                            <a href="https://www.instagram.com" class="text-dark">
+                                <i class="fab fa-instagram fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class="me-3">
+                            <a href="https://www.linkedin.com" class="text-dark">
+                                <i class="fab fa-linkedin fa-2x"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!-- Copyright Section -->
+        <div class="text-center py-3 mt-3">
+            <p class="mb-0">&copy; 2024 SoulScribbles. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <!-- Bootstrap JS (Optional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

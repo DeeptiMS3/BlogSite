@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo.png">
+    <title>SoulScribbles | Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b64c2e8263.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="d-flex justify-content-between align-items-center p-3 bg-light shadow-sm">
+        <div class="logo">
+            <img src="./images/logo.png" alt="Logo" class="img-fluid"
+                style="height: 40px;"><strong>SoulScribbles</strong>
+        </div>
+        <nav>
+            <ul class="nav">
+                <li class="nav-item"><a href="index.html" class="nav-link text-dark">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-dark">Portfolio</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-dark">Category</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-dark">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="search-container d-flex">
+            <input type="text" class="form-control" placeholder="Search">
+            <button class="btn btn-primary ms-2">Search</button>
+        </div>
+    </header>
+
+    <!-- Blog Section -->
+    <section class="blog p-4">
+        <!-- Blog Header -->
+        <div class="blog-header d-flex mb-4">
+            <img src="./images/header image.jpg" alt="Featured Image" class="img-fluid"
+                style="width: 300px; margin-right: 20px;">
+            <div class="blog-title">
+                <h1 class="fs-3">WELCOME TO MY BLOG</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore earum doloremque reiciendis quos
+                    tenetur aperiam hic <br> animi itaque voluptatem repudiandae molestias
+                    magni rerum corporis, culpa accusantium in, odit, nesciunt dolores.</p>
+            </div>
+        </div>
+        <hr>
+        <!-- Featured Posts -->
+        <div class="featured-posts p-4">
+            <h2>Featured</h2>
+            <div class="row">
+                <!-- Post Item -->
+                <div class="col-md-6 mb-4 ">
+                    <a href="post1.html" class="featured-link ">
+                        <div class="card d-flex flex-row">
+                            <img src="./images/featured-1.jpg" class="img-fluid" alt="Food Image"
+                                style="width: 70%; height: auto;">
+                            <div class="card-body position-relative flex-grow-1">
+                                <span class="badge position-absolute" style="bottom: 4.5rem;right: 13rem;">FOOD</span>
+                                <h3 class="card-title fs-5" style="padding-top: 1rem;">Best Food Habits</h3>
+                                <p class="card-text">07 Aug, 2024 | 6 min read</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Post Item -->
+                <div class="col-md-6 mb-4 ">
+                    <a href="post2.html" class="featured-link ">
+                        <div class="card d-flex flex-row">
+                            <img src="./images/featured-2.jpg" class="img-fluid" alt="Food Image"
+                                style="width: 70%; height: auto;">
+                            <div class="card-body position-relative flex-grow-1">
+                                <span class="badge position-absolute" style="bottom: 4.5rem;right: 13rem;">TRAVEL</span>
+                                <h3 class="card-title fs-5" style="padding-top: 1rem;">My HomeTown</h3>
+                                <p class="card-text">29 Jun, 2024 | 8 min read</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <!-- Post Item -->
+                <div class="col-md-6 mb-1">
+                    <a href="post3.html" class="featured-link">
+                        <div class="card d-flex flex-row">
+                            <img src="./images/featured-3.jpg" class="img-fluid" alt="Food Image"
+                                style="width: 70%; height: 90%;">
+                            <div class="card-body position-relative flex-grow-1">
+                                <span class="badge position-absolute" style="bottom: 7rem;right: 13rem;">RECIPIES</span>
+                                <h3 class="card-title fs-5">Favorite Recipe</h3>
+                                <p class="card-text">15 Mar, 2024 | 5 min read</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <!-- Post Item -->
+                <div class="col-md-6 mb-4">
+                    <a href="post4.html" class="featured-link">
+                        <div class="card d-flex flex-row">
+                            <img src="./images/featured-4.jpg" class="img-fluid" alt="Food Image"
+                                style="width: 70%; height: auto;">
+                            <div class="card-body position-relative flex-grow-1">
+                                <span class="badge position-absolute" style="bottom: 7rem;right: 13rem;">ART</span>
+                                <h3 class="card-title fs-5">Enciting Art</h3>
+                                <p class="card-text">09 Jan, 2024 | 7 min read</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <hr style="position: relative;bottom: 5rem;">
+        <div class="container Categories">
+            <h2 style="position: relative;bottom: 3rem;">Categories</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="position-relative">
+                        <img src="./images/food.jpg" class="img-fluid" alt="">
+                        <span class="position-absolute top-1 end-1 badge label">FOOD</span>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="position-relative">
+                        <img src="./images/health.jpg" class="img-fluid" alt="">
+                        <span class="position-absolute top-1 end-1 badge label">HEALTH</span>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="position-relative">
+                        <img src="./images/recipe.jpg" class="img-fluid" alt="">
+                        <span class="position-absolute top-1 end-1 badge label">RECIPIES</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="position-relative">
+                        <img src="./images/travel.jpg" class="img-fluid" alt="">
+                        <span class="position-absolute top-1 end-1 badge label">TRAVEL</span>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="position-relative">
+                        <img src="./images/tech.jpg" class="img-fluid" alt="">
+                        <span class="position-absolute top-1 end-1 badge label">TECHNOLOGY</span>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="position-relative">
+                        <img src="./images/art.jpg" class="img-fluid" alt="">
+                        <span class="position-absolute top-1 end-1 badge label">ART</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class=" pt-4" style="border-top: 1px solid #c0c0c0;">
+        <div class="container">
+            <div class="row">
+                <!-- About Section -->
+                <div class="col-md-4">
+                    <h5 class="text-dark">About Us</h5>
+                    <p class="small">
+                        Welcome to SoulScribbles, where we share our thoughts, experiences, and tips on life, travel,
+                        and much more. Join us on our journey!
+                    </p>
+                </div>
+
+                <!-- Links Section -->
+                <div class="col-md-4">
+                    <h5 class="text-dark">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="pageActive">Home</a></li>
+                        <li><a href="#" class="">About</a></li>
+                        <li><a href="#" class="">Portfolio</a></li>
+                        <li><a href="#" class="">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Social Media Section -->
+                <div class="col-md-4">
+                    <h5 class="text-dark">Follow Us</h5>
+                    <ul class="list-unstyled d-flex">
+                        <li class="me-3">
+                            <a href="https://www.facebook.com" class="text-dark">
+                                <i class="fab fa-facebook fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class="me-3">
+                            <a href="https://www.twitter.com" class="text-dark">
+                                <i class="fab fa-twitter fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class="me-3">
+                            <a href="https://www.instagram.com" class="text-dark">
+                                <i class="fab fa-instagram fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class="me-3">
+                            <a href="https://www.linkedin.com" class="text-dark">
+                                <i class="fab fa-linkedin fa-2x"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <!-- Copyright Section -->
+        <div class="text-center py-3 mt-3">
+            <p class="mb-0">&copy; 2024 SoulScribbles. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap JS (Optional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
